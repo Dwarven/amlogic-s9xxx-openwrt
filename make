@@ -6,15 +6,15 @@
 # warranty of any kind, whether express or implied.
 #
 # This file is a part of the make OpenWrt
-# https://github.com/ophub/amlogic-s9xxx-openwrt
+# https://github.com/Dwarven/amlogic-s9xxx-openwrt
 #
 # Description: Automatically Packaged OpenWrt
 # Copyright (C) 2020~ https://github.com/openwrt/openwrt
 # Copyright (C) 2020~ https://github.com/coolsnowwolf/lede
 # Copyright (C) 2020~ https://github.com/immortalwrt/immortalwrt
 # Copyright (C) 2020~ https://github.com/unifreq/openwrt_packit
-# Copyright (C) 2021~ https://github.com/ophub/amlogic-s9xxx-armbian/blob/main/CONTRIBUTORS.md
-# Copyright (C) 2020~ https://github.com/ophub/amlogic-s9xxx-openwrt
+# Copyright (C) 2021~ https://github.com/Dwarven/amlogic-s9xxx-armbian/blob/main/CONTRIBUTORS.md
+# Copyright (C) 2020~ https://github.com/Dwarven/amlogic-s9xxx-openwrt
 #
 # Command: sudo ./make
 # Command optional parameters please refer to the source code repository
@@ -70,7 +70,7 @@ host_release="$(cat /etc/os-release | grep '^VERSION_CODENAME=.*' | cut -d'=' -f
 op_release="etc/flippy-openwrt-release"
 
 # Dependency files download repository
-depends_repo="https://github.com/ophub/amlogic-s9xxx-armbian"
+depends_repo="https://github.com/Dwarven/amlogic-s9xxx-armbian"
 # U-BOOT files download repository
 uboot_repo="https://github.com/ophub/u-boot"
 # Firmware files download repository
@@ -79,7 +79,7 @@ firmware_repo="https://github.com/ophub/firmware"
 script_repo="https://github.com/ophub/luci-app-amlogic"
 
 # Set the kernel download repository from github.com
-kernel_repo="https://github.com/ophub/kernel"
+kernel_repo="https://github.com/Dwarven/kernel"
 # Set the tags(kernel_xxx) of the default kernel that can be replaced via the [ -u ] parameter
 default_tags="stable"
 # Set the tags(kernel_xxx) of the specific kernel, such as 5.15.y, 6.1.y, etc.

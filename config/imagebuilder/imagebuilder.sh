@@ -6,11 +6,11 @@
 # warranty of any kind, whether express or implied.
 #
 # This file is a part of the make OpenWrt for Amlogic s9xxx tv box
-# https://github.com/ophub/amlogic-s9xxx-openwrt
+# https://github.com/Dwarven/amlogic-s9xxx-openwrt
 #
 # Description: Build OpenWrt with Image Builder
 # Copyright (C) 2021~ https://github.com/unifreq/openwrt_packit
-# Copyright (C) 2021~ https://github.com/ophub/amlogic-s9xxx-openwrt
+# Copyright (C) 2021~ https://github.com/Dwarven/amlogic-s9xxx-openwrt
 # Copyright (C) 2021~ https://downloads.openwrt.org/releases
 # Copyright (C) 2023~ https://downloads.immortalwrt.org/releases
 #
