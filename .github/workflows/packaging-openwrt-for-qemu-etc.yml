@@ -13,12 +13,13 @@ on:
       openwrt_soc:
         description: "Select device board"
         required: false
-        default: "all"
+        default: "nokia-s-010w-av2b"
         type: choice
         options:
           - all
           - s922x_s905x3_s905x2_s912_s905d_s905
           - ak88
+          - nokia-s-010w-av2b
           - beikeyun
           - cm3
           - e25

@@ -26,7 +26,7 @@ on:
       openwrt_board:
         description: "Select device board"
         required: false
-        default: "all"
+        default: "nokia-s-010w-av2b"
         type: choice
         options:
           - all
@@ -35,6 +35,7 @@ on:
           - seewo-sv21_smart-am40_station-m1_sw799_tn3399_zysj_tvi3315a_xiaobao_zcube1-max
           - vplus_tanix-tx6_tqc-a01
           - a311d
+          - nokia-s-010w-av2b
           - beikeyun
           - chainedbox
           - crrc
